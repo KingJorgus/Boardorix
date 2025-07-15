@@ -8,6 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -25,6 +28,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: withastro/action@v2
         with:
           deploy-dir: dist
