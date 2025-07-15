@@ -1,26 +1,26 @@
-# site settings
+# Site settings
 title: Forty
 subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+email: your-email@example.com
+description: >-
+  A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 
-# homepage tiles
+baseurl: "" # Set your subpath if deploying to a folder, e.g. /blog
+url: "" # Set your site URL, e.g. http://example.com
+
+author:
+  street_address: 1234 Somewhere Road
+  city: Nashville
+  state: TN
+  zip_code: 55555
+  country: United States of America
+  phone: (716) 555-5555
+
+# Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
+# Social settings (keys must match Font Awesome icon names)
 socials:
   GitHub: https://github.com/andrewbanchich
   GitLab:
@@ -31,14 +31,32 @@ socials:
   Facebook:
   Slack:
 
-# build settings
+# Build settings
 markdown: kramdown
+theme: # leave blank if using local theme files
+plugins:
+  - jekyll-feed
 
 sass:
   style: compressed
 
+# Author usernames (optional)
+twitter_username: jekyllrb
+github_username: jekyll
+
+# Exclude these files/folders from build
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
