@@ -5,7 +5,7 @@ email: youremailaddress@gmail.com
 description: Discover the world of board games through honest reviews, expert recommendations, and a curated selection of the best games for every player. From family-friendly classics to strategy-heavy challenges, we help you find the perfect game for your next game night.
 baseurl: "" 
 url: "https://www.boardorix.com"
-author:Georgios Papadopoulos
+author: "Georgios Papadopoulos"
 street_address: 1234 Somewhere Road
 city: Nashville
 state: TN
