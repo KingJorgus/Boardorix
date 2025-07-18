@@ -1,66 +1,69 @@
-# Forty - Jekyll Theme
+# 🎲 Boardorix
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+**Website:** [www.boardorix.com](https://www.boardorix.com)  
+**Hosted on:** GitHub Pages (with custom domain)  
+**Powered by:** [Jekyll](https://jekyllrb.com/) + [Forty theme](https://github.com/andrewbanchich/forty-jekyll-theme)
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+---
 
-# How to Use
+## 🧠 What is Boardorix?
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+**Boardorix** is a curated website dedicated to **honest reviews and thoughtful recommendations** for board games. It’s designed to help players of all kinds discover engaging, enjoyable, and trusted games based on real-world play experiences — not marketing hype.
 
-Simply fork this repository and start editing the `_config.yml` file!
+We believe in transparent ratings, authentic voices, and highlighting games that truly bring people together.
 
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+---
 
-# Added Features
+## 🔄 Website Evolution
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
+### 🛠️ First Iteration
 
-# Credits
+- Basic static HTML/CSS/JS website  
+- Limited layout and manual content updates  
+- Served as an MVP for concept validation
 
-Original README from HTML5 UP:
+### 🚀 Second Iteration (Current)
 
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+- Built with **Jekyll** for better content structure and management  
+- Uses the responsive and modern **Forty theme**  
+- Fully hosted on **GitHub Pages** with a custom domain  
+- Markdown-driven content for simplicity and scalability  
+- Emphasis on mobile usability and visual appeal
 
+---
 
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
+## 🌟 Key Features
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- 🧩 **Honest board game reviews** written in plain, helpful language  
+- 🌟 **Curated recommendations** from editors and the community  
+- 🗃️ **Easy navigation** by categories, game type, or complexity  
+- 📸 **Clean, modern design** powered by the Forty theme  
+- 💬 Plans for user interaction and review submission in future iterations
 
-(* = not included)
+---
 
-AJ
-aj@lkn.io | @ajlkn
+## 🌐 Live Website
 
+Visit the site at  
+👉 **[www.boardorix.com](https://www.boardorix.com)**  
+No sign-up required — just browse, read, and find your next favorite board game.
 
-Credits:
+---
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## 🙌 Contributing
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+We're always looking to grow the collection of reviews and improve the experience.
 
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
+Feel free to:  
+- Submit a review idea or correction  
+- Suggest a new feature or section  
+- Report a typo or layout bug
 
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+Open an issue or reach out directly at 📧 **contact@boardorix.com**
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+Theme adapted from **Forty by HTML5 UP**, Jekyll integration by [@andrewbanchich](https://github.com/andrewbanchich).
