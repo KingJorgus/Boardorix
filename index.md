@@ -4,7 +4,7 @@ title: Home
 landing-title: 'Welcome to Boardorix!'
 description: null
 image: null
-author: null
+author: Georgios Papadopoulos
 show_tile: false
 ---
 
