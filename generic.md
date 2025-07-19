@@ -2,7 +2,7 @@
 layout: post
 title: Strategy Games
 description: Reviews and recommendations for strategy games
-image: assets/images/pic11.jpg
+image: assets/images/StrategyGames.jpg
 nav-menu: true
 ---
 
