@@ -8,4 +8,4 @@ author: Georgios Papadopoulos
 show_tile: false
 ---
 
-Redirection to landing page.
+View all board games!
