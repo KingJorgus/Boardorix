@@ -1,17 +1,12 @@
 # site settings
 title: Boardorix
 subtitle: Reviews you can trust. Games you'll love.
-email: youremailaddress@gmail.com
+email: zephyrflights@gmail.com
 description: Discover the world of board games through honest reviews, expert recommendations, and a curated selection of the best games for every player. From family-friendly classics to strategy-heavy challenges, we help you find the perfect game for your next game night.
 baseurl: "" 
 url: "https://www.boardorix.com"
 author: "Georgios Papadopoulos"
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+country: Greece
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
