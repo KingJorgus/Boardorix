@@ -7,5 +7,3 @@ image: null
 author: Georgios Papadopoulos
 show_tile: false
 ---
-
-View all board games!
