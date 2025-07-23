@@ -1,7 +1,7 @@
 ---
-title: Landing
-layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+layout: page
+title: Card Games
+description: 'Reviews and recommendations for card games'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
