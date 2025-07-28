@@ -72,16 +72,17 @@
 
 		.content {
 			@include vendor('display', 'flex');
-			@include vendor('align-items', 'center');
-			margin: 0 0 _size(element-margin) 0;
+			@include vendor('flex-direction', 'column');
+			@include vendor('align-items', 'flex-start'); // Align text to left
+			text-align: left;
 
-			>* {
-				margin-left: 1.5em;
-				margin-bottom: 0;
+			.text {
+				width: 100%;
 			}
 
-			> :first-child {
-				margin-left: 0;
+			.actions {
+				align-self: center; // Center the button only
+				margin-top: 1em;
 			}
 
 			p {
@@ -89,10 +90,8 @@
 				font-weight: _font(weight-bold);
 				letter-spacing: _font(letter-spacing-alt);
 				text-transform: uppercase;
-				text-align: left;
 			}
 		}
-
 
 	}
 
