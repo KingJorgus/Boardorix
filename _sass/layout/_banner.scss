@@ -72,16 +72,16 @@
 
 		.content {
 			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'column'); // 🔧 Make vertical
-			@include vendor('align-items', 'center'); // 🔧 Center horizontally
+			@include vendor('align-items', 'center');
+			margin: 0 0 _size(element-margin) 0;
 
 			>* {
-				margin-left: 0 !important; // 🔧 Remove side spacing
-				margin-bottom: _size(element-margin); // 🔧 Add vertical spacing
+				margin-left: 1.5em;
+				margin-bottom: 0;
 			}
 
-			> :last-child {
-				margin-bottom: 0; // Optional: remove margin after last
+			> :first-child {
+				margin-left: 0;
 			}
 
 			p {
@@ -89,9 +89,9 @@
 				font-weight: _font(weight-bold);
 				letter-spacing: _font(letter-spacing-alt);
 				text-transform: uppercase;
-				text-align: center; // 🔧 Center paragraph
 			}
 		}
+
 
 	}
 
