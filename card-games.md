@@ -7,4 +7,4 @@ order: 2
 nav-menu: true
 ---
 
-Card Games !
+<h1>Card Games !</h1>
