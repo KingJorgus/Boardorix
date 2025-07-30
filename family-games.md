@@ -7,4 +7,4 @@ order: 3
 nav-menu: true
 ---
 
-Family Games!
+<h1>Family Games!</h1>
