@@ -1,19 +1,33 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Jekyll Site with Forty Theme
 
 on:
-  pull_requests:
+  push:
     branches:
-      - master  # or 'main' if that's your default branch
+      - master
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Deploy site with Jekyll Action
-        uses: helaili/jekyll-action@2.0.5
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ruby-version: '3.1'  # Adjust to your Ruby version
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
