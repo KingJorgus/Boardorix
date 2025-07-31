@@ -1,18 +1,14 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
+  pull_request:
     branches:
-      - master  # Change to 'main' if your default branch is 'main'
+      - master
 
 jobs:
-  deploy:
+  github-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v2
-
-      - name: Build and Deploy with Jekyll
-        uses: helaili/jekyll-action@2.0.5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@2.0.5
+        build_only: true
