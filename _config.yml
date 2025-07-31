@@ -8,9 +8,6 @@ url: "https://www.boardorix.com"
 author: "Georgios Papadopoulos"
 country: Greece
 
-gems:
-  - jekyll-theme-forty
-
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
