@@ -17,10 +17,9 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  Instagram:
-  Twitter:
-  Facebook:
-  Slack:
+  Instagram: ""
+  Twitter: ""
+  Facebook: ""
 
 # build settings
 markdown: kramdown
