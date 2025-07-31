@@ -1,14 +1,19 @@
 name: Deploy to GitHub Pages
 
 on:
-  pull_request:
+  push:
     branches:
-      - master
+      - master  # or 'main' if that's your default branch
 
 jobs:
-  github-pages:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@2.0.5
-        build_only: true
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy site with Jekyll Action
+        uses: helaili/jekyll-action@2.0.5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
