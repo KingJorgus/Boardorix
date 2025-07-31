@@ -27,6 +27,8 @@ markdown: kramdown
 sass:
   style: compressed
 
+theme: jekyll-theme-forty
+
 exclude:
 - "*.gemspec"
 - LICENSE.md
