@@ -8,13 +8,12 @@ nav-menu: true
 permalink: /rpg-games/
 ---
 
-<h1>RPG Games</h1>
+h1>RPG Games</h1>
 
-{% for post in site.categories.RPG %}
-  <article class="rpg-post">
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.date | date: "%B %d, %Y" }}</p>
-    {{ post.content }}
-  </article>
+{% assign rpg_posts = site.categories.RPG | sort: 'date' | reverse %}
+{% for post in rpg_posts %}
+<article class="rpg-post">
+  <h2>{{ post.title }}</h2>
+  {{ post.content }}
+</article>
 {% endfor %}
-
