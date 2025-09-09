@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Etiam
-description: Feugiat amet tempus
-image: assets/images/pic06.jpg
+title: HeroQuest
+description: Venture into dungeons and take on quests in this fantasy-themed rpg board game.
+image: assets/images/HeroQuest.jpg
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
