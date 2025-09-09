@@ -65,7 +65,12 @@ img {
 		}
 	}
 
-	post-img{
-		display: block;
+	.post-img{
 		max-width: 250px;
+		
+		img {
+        width: 100%;    // fill container
+        height: auto;   // keep aspect ratio
+        display: block;
+    }
 	}
