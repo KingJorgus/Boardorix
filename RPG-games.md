@@ -12,8 +12,9 @@ permalink: /rpg-games/
 
 {% for post in site.categories.RPG %}
   <article class="rpg-post">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2>{{ post.title }}</h2>
     <p>{{ post.date | date: "%B %d, %Y" }}</p>
     {{ post.content }}
   </article>
 {% endfor %}
+
