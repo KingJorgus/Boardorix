@@ -17,4 +17,3 @@ h1>RPG Games</h1>
   {{ post.content | markdownify }}
 </article>
 {% endfor %}
-
