@@ -14,6 +14,7 @@ h1>RPG Games</h1>
 {% for post in rpg_posts %}
 <article class="rpg-post">
   <h2>{{ post.title }}</h2>
-  {{ post.content }}
+  {{ post.content | markdownify }}
 </article>
 {% endfor %}
+
