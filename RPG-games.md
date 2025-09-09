@@ -14,4 +14,4 @@ permalink: /rpg-games/
 {% for post in site.categories.RPG %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-</ul>u
+</ul>
