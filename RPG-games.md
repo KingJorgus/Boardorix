@@ -1,0 +1,10 @@
+---
+layout: page
+title: Role Playing Games
+description: Reviews and recommendations for role playing games.
+image: assets/images/RPG.jpg
+order: 4
+nav-menu: true
+---
+
+Role Playing Games!
