@@ -8,4 +8,10 @@ nav-menu: true
 permalink: /rpg-games/
 ---
 
-Role Playing Games!
+<h1>RPG Games</h1>
+
+<ul>
+{% for post in site.categories.RPG %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>u
