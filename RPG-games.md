@@ -17,7 +17,7 @@ permalink: /rpg-games/
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
         </a>
       {% else %}
-        <a href="{{ post.url | relative_url }}" class="post-image">
+        <a href="{{ post.url | relative_url }}" class="post-img">
           <img src="{{ '/assets/images/default.png' | relative_url }}" alt="No image available">
         </a>
       {% endif %}
@@ -25,7 +25,7 @@ permalink: /rpg-games/
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
       <p class="post-description">{{ post.description }}</p>
-      <a href="{{ post.url | relative_url }}" class="button primary">Learn More</a>
+      <a href="{{ post.url | relative_url }}" class="button">Learn More</a>
     </article>
   {% endfor %}
 </section>
