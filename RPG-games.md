@@ -15,7 +15,7 @@ permalink: /rpg-games/
       {% if post.image %}
         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-img"/>
       {% else %}
-        <img src="{{ '/assets/images/default.png' | relative_url }}" alt="No image available" class="rpg-img"/>
+        <img src="{{ '/assets/images/default.png' | relative_url }}" alt="No image available" class="post-img"/>
       {% endif %}
       <h2>{{ post.title }}</h2>
       <p>{{ post.description }}</p>
