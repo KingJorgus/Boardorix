@@ -8,12 +8,14 @@ nav-menu: true
 permalink: /rpg-games/
 ---
 
-<h1>RPG Games</h1>
-
-{% assign rpg_posts = site.categories.RPG | sort: 'date' | reverse %}
-{% for post in rpg_posts %}
-<article class="rpg-post">
-  <h2>{{ post.title }}</h2>
-  {{ post.content | markdownify }}
-</article>
-{% endfor %}
+<div class="rpg-posts">
+  {% assign rpg_posts = site.categories.RPG %}
+  {% for post in rpg_posts %}
+    <div class="rpg-card">
+      <img src="{{ post.image | default: post.thumbnail | default: '/assets/images/default.png' }}" alt="{{ post.title }}" class="rpg-img"/>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.description }}</p>
+      <a href="{{ post.url | relative_url }}" class="learn-more-btn">Learn More</a>
+    </div>
+  {% endfor %}
+</div>
