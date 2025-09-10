@@ -13,7 +13,7 @@ permalink: /rpg-games/
   {% for post in rpg_posts %}
     <div class="rpg-card">
       {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="rpg-img"/>
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-img"/>
       {% else %}
         <img src="{{ '/assets/images/default.png' | relative_url }}" alt="No image available" class="rpg-img"/>
       {% endif %}
