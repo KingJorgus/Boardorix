@@ -19,7 +19,7 @@ permalink: /rpg-games/
       {% endif %}
       <h2>{{ post.title }}</h2>
       <p>{{ post.description }}</p>
-      <a href="{{ post.url | relative_url }}" class="learn-more-btn">Learn More</a>
+      <a href="{{ post.url | relative_url }}" class="button">Learn More</a>
     </div>
   {% endfor %}
 </div>
