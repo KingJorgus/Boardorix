@@ -8,18 +8,24 @@ nav-menu: true
 permalink: /rpg-games/
 ---
 
-<div class="posts">
+<section class="posts">
   {% assign rpg_posts = site.categories.RPG %}
   {% for post in rpg_posts %}
-    <div class="rpg-card">
-    <h2>{{ post.title }}</h2>
+    <article class="post">
       {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-img"/>
+        <a href="{{ post.url | relative_url }}" class="post-image">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </a>
       {% else %}
-        <img src="{{ '/assets/images/default.png' | relative_url }}" alt="No image available" class="post-img"/>
+        <a href="{{ post.url | relative_url }}" class="post-image">
+          <img src="{{ '/assets/images/default.png' | relative_url }}" alt="No image available">
+        </a>
       {% endif %}
-      <p>{{ post.description }}</p>
-      <a href="{{ post.url | relative_url }}" class="button">Learn More</a>
-    </div>
+      <h2 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <p class="post-description">{{ post.description }}</p>
+      <a href="{{ post.url | relative_url }}" class="button primary">Learn More</a>
+    </article>
   {% endfor %}
-</div>
+</section>
