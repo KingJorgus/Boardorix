@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Role Playing Games
 description: Reviews and recommendations for role playing games.
 image: assets/images/RPG.png
