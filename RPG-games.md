@@ -8,7 +8,7 @@ nav-menu: true
 permalink: /rpg-games/
 ---
 
-<div class="posts">
+<div class="section">
   {% assign rpg_posts = site.categories.RPG %}
   {% for post in rpg_posts %}
     <div class="rpg-card">
