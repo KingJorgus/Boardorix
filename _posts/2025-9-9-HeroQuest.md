@@ -6,4 +6,4 @@ image: /assets/images/HeroQuest.png
 categories: RPG
 ---
 
-![HeroQuest](assets/images/HeroQuest.png){: .post-img }
+![HeroQuest](/assets/images/HeroQuest.png){: .post-img }
