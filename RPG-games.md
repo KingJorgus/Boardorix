@@ -16,7 +16,7 @@ permalink: /rpg-games/
   {% for post in rpg_posts %}
 
   <header class="major">
-   <h1>{{ page.title }}</h1>
+   <h1>{{ post.title }}</h1>
   </header>
       {% if post.image %}
         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-img"/>
