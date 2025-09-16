@@ -7,3 +7,13 @@ categories: RPG
 ---
 
 ![HeroQuest](/assets/images/HeroQuest.png){: .post-img }
+
+## Game Details
+
+| Attribute        | Value                        |
+|------------------|------------------------------|
+| Players          | 2–5                          |
+| Average Playtime | 90 minutes                   |
+| Age Range        | 12+                          |
+| Genre            | Fantasy / Dungeon Crawl      |
+| Publisher        | Milton Bradley, Games Workshop |
