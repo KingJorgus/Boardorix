@@ -7,11 +7,12 @@ categories: RPG
 ---
 
 <div class="row">
+  <!-- Image with .post-img -->
   <div class="col-6 col-12-small">
-    <span class="image fit">
-      <img src="/assets/images/HeroQuest.png" alt="HeroQuest">
-    </span>
+    <img src="/assets/images/HeroQuest.png" alt="HeroQuest" class="post-img">
   </div>
+
+  <!-- Table -->
   <div class="col-6 col-12-small">
     <h2>Game Details</h2>
     <table>
