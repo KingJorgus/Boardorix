@@ -6,10 +6,31 @@ image: /assets/images/HeroQuest.png
 categories: RPG
 ---
 
-![HeroQuest](/assets/images/HeroQuest.png){: .post-img }
-
-## Game Details
-
-| Players | Average Playtime | Age Range | Genre |
-|---------|------------------|-----------|-------|
-| 2–5     | 90 minutes       | 14+       | Fantasy / Dungeon Crawl |
+<div class="row">
+  <div class="col-6 col-12-small">
+    <span class="image fit">
+      <img src="/assets/images/HeroQuest.png" alt="HeroQuest">
+    </span>
+  </div>
+  <div class="col-6 col-12-small">
+    <h2>Game Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Players</th>
+          <th>Average Playtime</th>
+          <th>Age Range</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2–5</td>
+          <td>90 minutes</td>
+          <td>14+</td>
+          <td>Fantasy / Dungeon Crawl</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
