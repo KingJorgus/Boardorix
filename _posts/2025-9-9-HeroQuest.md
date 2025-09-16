@@ -10,6 +10,6 @@ categories: RPG
 
 ## Game Details
 
-| Players | Average Playtime | Age Range | Genre | Publisher |
-|---------|------------------|-----------|-------|-----------|
-| 2–5     | 90 minutes       | 12+       | Fantasy / Dungeon Crawl | Milton Bradley, Games Workshop |
+| Players | Average Playtime | Age Range | Genre |
+|---------|------------------|-----------|-------|
+| 2–5     | 90 minutes       | 14+       | Fantasy / Dungeon Crawl |
