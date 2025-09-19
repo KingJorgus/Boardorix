@@ -4,7 +4,7 @@
 	<!-- Header -->
 	<header id="header" {% if page.layout=="landing" %} class="alt style2" {% endif %}{% if page.layout=="home" %}
 		class="alt" {% endif %}>
-		<a href="{{ "/" | relative_url }}" class="logo">
+		<a href="{{ " /" | relative_url }}" class="logo">
 			<strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 		<nav>
 			<a href="#menu">Menu</a>
@@ -19,11 +19,13 @@
 			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 			{% endif %}
 			{% endfor %}
-			{% for page in site.html_pages %}
-			{% if page.layout != "home" and page.nav-menu == true %}
+			{% assign nav_pages = site.html_pages | where: "nav-menu", true | sort: "order" %}
+			{% for page in nav_pages %}
+			{% if page.layout != "home" %}
 			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 			{% endif %}
 			{% endfor %}
+
 		</ul>
 		<!--<ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
