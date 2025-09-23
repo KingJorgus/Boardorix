@@ -35,6 +35,6 @@ categories: RPG
     </table>
 
     <!-- Description -->
-    <h2>\nDescription</h2>
+    <h2>Description</h2>
   </div>
 </div>
