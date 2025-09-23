@@ -79,3 +79,18 @@ table {
 		}
 	}
 }
+
+.centered-table {
+	width: auto !important;
+	/* shrink to content, override 100% */
+	margin: 0 auto;
+	/* center inside column */
+}
+
+.centered-table th {
+	text-align: center;
+}
+
+.centered-table td {
+	text-align: center;
+}
