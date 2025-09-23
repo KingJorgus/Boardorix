@@ -79,12 +79,11 @@ table {
 		}
 	}
 }
-.centered-table {
-  width: auto !important;
-  margin: 0 auto;
-  text-align: center;
+.table-center-wrapper {
+  text-align: center; /* centers inline content */
 }
 
-.centered-table th {
-  text-align: center;
+.table-center-wrapper table {
+  width: auto !important; /* override theme’s width:100% */
+  margin: 0 auto;         /* center horizontally */
 }
