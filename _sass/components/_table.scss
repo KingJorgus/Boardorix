@@ -80,11 +80,11 @@ table {
 	}
 }
 .centered-table {
-  width: auto !important;         /* shrink to content */
-  margin: 0 auto;       /* center in column */
-  text-align: center;   /* center text inside */
+  width: auto !important;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .centered-table th {
-  text-align: center;   /* override theme */
+  text-align: center;
 }
