@@ -15,7 +15,7 @@ categories: RPG
   <!-- Table -->
   <div class="col-6 col-12-small">
     <h2>Game Details</h2>
-    <table>
+    <table class="centered-table">
       <thead>
         <tr>
           <th>Players</th>
