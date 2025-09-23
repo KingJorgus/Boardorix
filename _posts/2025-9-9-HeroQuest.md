@@ -44,5 +44,8 @@ categories: RPG
     <p>
       Players explore rooms, battle monsters, disarm traps, and collect treasure while working together to complete quests. Each adventure is part of a larger storyline, with items and progress carrying over between quests. The game spawned multiple expansions and even a design kit, offering new challenges and additional content for long-term play.
     </p>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/GIAUpirdymk?si=AyhnTvnvFdhwylqf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
   </div>
 </div>
