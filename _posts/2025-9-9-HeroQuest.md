@@ -15,26 +15,29 @@ categories: RPG
   <!-- Table -->
   <div class="col-6 col-12-small">
     <h2>Game Details</h2>
-    <table class="centered-table">
-      <thead>
-        <tr>
-          <th>Players</th>
-          <th>Average Playtime</th>
-          <th>Age Range</th>
-          <th>Genre</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2–5</td>
-          <td>90 minutes</td>
-          <td>14+</td>
-          <td>Fantasy / Dungeon Crawl</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Players</th>
+            <th>Average Playtime</th>
+            <th>Age Range</th>
+            <th>Genre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2–5</td>
+            <td>90 minutes</td>
+            <td>14+</td>
+            <td>Fantasy / Dungeon Crawl</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
+
 <div class="row">
   <div class="col-12">
     <h2>Description</h2>
