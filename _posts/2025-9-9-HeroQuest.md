@@ -41,7 +41,7 @@ categories: RPG
     <p>
       HeroQuest is a fantasy dungeon-crawling board game originally created by Milton Bradley in collaboration with Games Workshop. One player takes on the role of the evil wizard (Zargon/Morcar), controlling monsters and revealing the dungeon as the game progresses, while up to four others play as classic heroes — the Barbarian, Dwarf, Elf, or Wizard.
 
-    Players explore rooms, battle monsters, disarm traps, and collect treasure while working together to complete quests. Each adventure is part of a larger storyline, with items and progress carrying over between quests. The game spawned multiple expansions and even a design kit, offering new challenges and additional content for long-term play.
+      Players explore rooms, battle monsters, disarm traps, and collect treasure while working together to complete quests. Each adventure is part of a larger storyline, with items and progress carrying over between quests. The game spawned multiple expansions and even a design kit, offering new challenges and additional content for long-term play.
     </p>
   </div>
 </div>
