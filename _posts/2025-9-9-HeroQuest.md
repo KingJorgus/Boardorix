@@ -33,8 +33,7 @@ categories: RPG
         </tr>
       </tbody>
     </table>
-
-    <!-- Description -->
-    <h2>Description</h2>
   </div>
+   <!-- Description -->
+   <h2>Description</h2>
 </div>
