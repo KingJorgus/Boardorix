@@ -34,6 +34,13 @@ categories: RPG
       </tbody>
     </table>
   </div>
-   <!-- Description -->
-   <h2>Description</h2>
+</div>
+<div class="row">
+  <div class="col-12">
+    <h2>Description</h2>
+    <p>
+      HeroQuest is a fantasy adventure board game where players explore dungeons,
+      fight monsters, and complete quests in a richly thematic world.
+    </p>
+  </div>
 </div>
