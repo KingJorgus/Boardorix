@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Magic
-description: Magic: The Gathering is a strategy trading card game where players use decks of powerful spells, creatures, and artifacts to battle for victory.
+description: Magic The Gathering is a strategy trading card game where players use decks of powerful spells, creatures, and artifacts to battle for victory.
 image: /assets/images/Magic_The_Gathering.png 
 categories: card
 ---
