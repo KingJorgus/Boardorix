@@ -48,7 +48,7 @@ categories: card
 </div>
 <div class="video-wrapper">
   <div class="ratio-box">
-    <iframe src="https://www.youtube.com/embed/8Yj0Y3GKE40?si=eMzHc3BdcDvr6mPX"
+    <iframe src="https://www.youtube.com/embed/wif9ppH5JpI?si=5JwqD3wDnSuETOXH"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
