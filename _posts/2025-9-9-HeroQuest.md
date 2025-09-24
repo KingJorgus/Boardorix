@@ -46,7 +46,12 @@ categories: RPG
     </p>
   </div>
 </div>
-<div class="video-wrapper" style="margin-top:20px;">
-  <iframe src="https://www.youtube.com/embed/GIAUpirdymk?si=AyhnTvnvFdhwylqf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <div class="ratio-box">
+    <iframe src="https://www.youtube.com/embed/GIAUpirdymk?si=AyhnTvnvFdhwylqf"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+  </div>
 </div>
-
