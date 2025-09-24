@@ -9,7 +9,7 @@ categories: card
 <div class="row">
   <!-- Image with .post-img -->
   <div class="col-6 col-12-small">
-    <img src="/assets/images/Magic_The_Gathering" alt="Magic_The_Gathering" class="post-img">
+    <img src="/assets/images/Magic_The_Gathering.png" alt="Magic_The_Gathering" class="post-img">
   </div>
 
   <!-- Table -->
