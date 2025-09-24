@@ -1,9 +1,9 @@
 ---
 layout: post
 title: CATAN
-description: Catan is a strategy board game where players compete to build settlements, cities, and roads by collecting and trading resources on a modular hexagonal map.
-image: /assets/images/CATAN.png 
-categories: strategy
+description: Venture into dungeons and take on quests in this fantasy-themed rpg board game.
+image: /assets/images/HeroQuest.png 
+categories: RPG
 ---
 
 <div class="row">
