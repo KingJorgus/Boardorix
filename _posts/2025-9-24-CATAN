@@ -9,7 +9,7 @@ categories: strategy
 <div class="row">
   <!-- Image with .post-img -->
   <div class="col-6 col-12-small">
-    <img src="/assets/images/HeroQuest.png" alt="HeroQuest" class="post-img">
+    <img src="/assets/CATAN.png" alt="CATAN" class="post-img">
   </div>
 
   <!-- Table -->
@@ -26,10 +26,10 @@ categories: strategy
       </thead>
       <tbody>
         <tr>
-          <td>2–5</td>
-          <td>90 minutes</td>
-          <td>14+</td>
-          <td>Fantasy / Dungeon Crawl</td>
+          <td>3–4</td>
+          <td>60-120 minutes</td>
+          <td>10+</td>
+          <td>Strategy / Resource Management</td>
         </tr>
       </tbody>
     </table>
@@ -48,7 +48,7 @@ categories: strategy
 </div>
 <div class="video-wrapper">
   <div class="ratio-box">
-    <iframe src="https://www.youtube.com/embed/GIAUpirdymk?si=AyhnTvnvFdhwylqf"
+    <iframe src="https://www.youtube.com/embed/8Yj0Y3GKE40?si=eMzHc3BdcDvr6mPX"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
