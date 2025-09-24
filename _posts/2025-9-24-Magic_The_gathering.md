@@ -39,10 +39,10 @@ categories: card
   <div class="col-12">
     <h2>Description</h2>
     <p>
-      Catan (formerly The Settlers of Catan) is a strategy board game where players compete to dominate the island of Catan by building settlements, cities, and roads. The board is made of randomly arranged hex tiles representing different terrains that produce resources (brick, wood, ore, wheat, and sheep), with number tokens indicating which dice rolls yield production. Each player starts with two settlements and roads placed on tile intersections, collecting resources based on adjacent terrain.
+      Magic: The Gathering is the first and most iconic collectible card game, where players take on the role of planeswalkers—powerful wizards who duel for victory. Each player brings a custom-built deck of cards, representing their spells, creatures, artifacts, and lands. Lands generate mana, the magical resource needed to cast spells, while other cards either remain on the battlefield to influence the game or deliver one-time effects. With over 25,000 unique cards to choose from, deck construction is a core element of the game, allowing players to craft strategies that fit their playstyle.
     </p>
     <p>
-      On a turn, players roll dice to generate resources, trade with others or at ports, and spend resources to expand their network, buy development cards, or upgrade settlements into cities. A roll of 7 activates the robber, blocking resource production on a tile and allowing the active player to steal from an adjacent opponent. Victory points are earned through settlements, cities, the longest road, the largest army, and certain development cards. The first player to reach 10 points wins the game.
+      In play, opponents draw cards each turn, summoning creatures, casting spells, and carefully managing resources to reduce their rival’s life total to zero or meet another win condition. The game balances chance with strategy—while draws are random, decision-making and timing are critical. Complex mechanics like “the stack,” which governs how spells and abilities interact, create layers of tactics and counterplay. Traditionally played one-on-one, Magic also supports a wide variety of casual and competitive formats, from multiplayer free-for-alls to high-level tournaments, offering endless depth and replayability.
     </p>
   </div>
 </div>
