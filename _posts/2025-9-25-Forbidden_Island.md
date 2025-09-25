@@ -3,7 +3,7 @@ layout: post
 title: "Forbidden Island"
 description: "Forbidden Island is a cooperative board game where players work together as adventurers to collect four treasures and escape before the island sinks beneath the waves."
 image: /assets/images/Forbidden_Island.png 
-categories: card
+categories: family
 ---
 
 <div class="row">
