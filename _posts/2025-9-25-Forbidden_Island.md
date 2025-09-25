@@ -9,7 +9,7 @@ categories: card
 <div class="row">
   <!-- Image with .post-img -->
   <div class="col-6 col-12-small">
-    <img src="/assets/images/Magic_The_Gathering.png" alt="Magic_The_Gathering" class="post-img">
+    <img src="/assets/images/Forbidden_Island.png" alt="Forbidden_Island" class="post-img">
   </div>
 
   <!-- Table -->
@@ -26,10 +26,10 @@ categories: card
       </thead>
       <tbody>
         <tr>
-          <td>2-6 (Best 2)</td>
-          <td>20 minutes</td>
-          <td>13+</td>
-          <td>Trading Card Game</td>
+          <td>2-4</td>
+          <td>30 minutes</td>
+          <td>10+</td>
+          <td>Cooperative Game</td>
         </tr>
       </tbody>
     </table>
