@@ -18,7 +18,7 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   Instagram: "https://www.instagram.com/boardorix/"
-  X: ""
+  Twitter: "https://x.com/boardorix"
 
 # build settings
 markdown: kramdown
